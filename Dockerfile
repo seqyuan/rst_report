@@ -9,4 +9,4 @@ RUN pip install rst2html5-tools
 #SHELL ["conda", "run", "-n", "rs4", "/bin/bash", "-c"]
 
 #CMD ["rst2html5", "--bootstrap-css", "--pretty-print-code", "--jquery", "--stylesheet=/usr/local/bin/styles.css"]
-CMD ["rst2html5", "--stylesheet=/usr/local/bin/styles.css"] 
+#CMD ["rst2html5", "--stylesheet=/usr/local/bin/styles.css"] 
