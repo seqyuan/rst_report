@@ -4,7 +4,7 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
 ADD styles.css /usr/local/bin/
-RUN pip install rst2html5
+RUN pip install rst2html5-tools
 
 #SHELL ["conda", "run", "-n", "rs4", "/bin/bash", "-c"]
 
