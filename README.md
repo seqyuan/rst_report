@@ -2,7 +2,7 @@
 docker image for convert rstfile to html
 
 ```shell
-sudo docker run --rm -it -v /mypath:/mypath \
+sudo docker run --rm -v /mypath:/mypath \
 	ghcr.io/seqyuan/rst_report:1.0 \
 	rst=/mypath/report.rst \
 	html=/mypath/report.html
@@ -10,7 +10,7 @@ sudo docker run --rm -it -v /mypath:/mypath \
 
 ### rst2html5 parameters
 ```shell
-sudo docker run --rm -it -v /mypath:/mypath \
+sudo docker run --rm -v /mypath:/mypath \
 	ghcr.io/seqyuan/rst_report:1.0 \
 	rst=/mypath/report.rst \
 	html=/mypath/report.html \
