@@ -24,5 +24,5 @@ singularity build rst_report_1.0.sif docker://ghcr.io/seqyuan/rst_report:1.0
 ### exe singularity
 
 ```shell
-export SINGULARITY_BIND=/path/data && singularity exec /path/data/rst_report/rst_report_1.0.sif rst=/path/data/test/report.rst html=/path/data/test/report.html
+export SINGULARITY_BIND=/path/data && singularity exec /path/data/rst_report/rst_report_1.0.sif make -f /opt/makefile rst2html rst=/path/data/test/report.rst html=/path/data/test/report.html
 ```
