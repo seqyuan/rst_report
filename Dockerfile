@@ -10,7 +10,7 @@ RUN pip install rst2html5-tools
 WORKDIR /opt
 RUN apk update && apk upgrade && \
     apk add nodejs npm make && \
-	npm install html-inline
+	npm install -g html-inline
 
-#ENTRYPOINT ["make", "-f", "/usr/local/bin/Makefile", "rst2html"]
+ENTRYPOINT ["make", "-f", "/usr/local/bin/Makefile", "rst2html"]
 
