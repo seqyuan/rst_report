@@ -12,5 +12,5 @@ RUN apk update && apk upgrade && \
     apk add nodejs npm make && \
 	npm install html-inline
 
-ENTRYPOINT ["make", "-f", "/usr/local/bin/Makefile", "rst2html"]
+#ENTRYPOINT ["make", "-f", "/usr/local/bin/Makefile", "rst2html"]
 
