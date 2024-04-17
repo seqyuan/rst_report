@@ -7,7 +7,7 @@ ADD styles.css /usr/local/bin/
 ADD Makefile /usr/local/bin/
 RUN pip install rst2html5-tools
 
-RUN apk add nodejs && npm install html-inline
+RUN apk add nodejs npm && npm install html-inline
 
 
 ENTRYPOINT ["make", "-f", "/usr/local/bin/Makefile", "rst2html"]
