@@ -16,3 +16,9 @@ sudo docker run --rm -v /mypath:/mypath \
 	html=/mypath/report.html \
 	r2l_paras=--jquery
 ```
+
+### convert docker image to singularity
+```
+singularity build rst_report_1.0.sif docker://ghcr.io/seqyuan/rst_report:1.0
+```
+
