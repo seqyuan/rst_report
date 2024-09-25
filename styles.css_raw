@@ -110,7 +110,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 700px;
-  font-family: SimHei,Arial;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -170,7 +170,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: SimHei,Arial;
+  font-family: inherit;
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -191,7 +191,7 @@ h2 {
 
 h3 {
   font-size: 1.3em;
-  font-family:SimHei,Arial;
+  font-family:Georgia, serif;
   font-style:italic;
   /*font-weight:normal;*/
 }
@@ -290,7 +290,7 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: SimHei,Arial;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -624,14 +624,14 @@ div.admonition p.admonition-title, div.hint p.admonition-title,
 div.important p.admonition-title, div.note p.admonition-title,
 div.tip p.admonition-title {
   font-weight: bold ;
-  font-family: SimHei,Arial }
+  font-family: sans-serif }
 
 div.attention p.admonition-title, div.caution p.admonition-title,
 div.danger p.admonition-title, div.error p.admonition-title,
 div.warning p.admonition-title, .code .error {
   color: red ;
   font-weight: bold ;
-  font-family: SimHei,Arial }
+  font-family: sans-serif }
 
 /* Uncomment (and remove this text!) to get reduced vertical space in
    compound paragraphs.
@@ -679,7 +679,7 @@ div.sidebar {
   clear: right }
 
 div.sidebar p.rubric {
-  font-family: SimHei,Arial ;
+  font-family: sans-serif ;
   font-size: medium }
 
 div.system-messages {
@@ -784,12 +784,12 @@ p.rubric {
   text-align: center }
 
 p.sidebar-title {
-  font-family: SimHei,Arial ;
+  font-family: sans-serif ;
   font-weight: bold ;
   font-size: larger }
 
 p.sidebar-subtitle {
-  font-family: SimHei,Arial ;
+  font-family: sans-serif ;
   font-weight: bold }
 
 p.topic-title {
@@ -814,15 +814,15 @@ pre.code .deleted, code .deleted { background-color: #DEB0A1}
 pre.code .inserted, code .inserted { background-color: #A3D289}
 
 span.classifier {
-  font-family: SimHei,Arial ;
+  font-family: sans-serif ;
   font-style: oblique }
 
 span.classifier-delimiter {
-  font-family: SimHei,Arial ;
+  font-family: sans-serif ;
   font-weight: bold }
 
 span.interpreted {
-  font-family: SimHei,Arial }
+  font-family: sans-serif }
 
 span.option {
   white-space: nowrap }
@@ -897,7 +897,7 @@ table {
   border-spacing: 1;
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
-  font-family: SimHei,Arial;
+  font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
